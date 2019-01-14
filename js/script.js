@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return str;
     }
     function backgroundColor () {
-      var color = ['rgb(63,81,181,)','rgb(13,71,161)','rgb(213,0,249)','rgb(211,47,47)'];
+      var color = ['rgb(63,81,181)','rgb(13,71,161)','rgb(213,0,249)','rgb(211,47,47)'];
       return color[Math.floor(Math.random()*4)];
     }
     function generateTemplate(name, data, style, basicElement) {
